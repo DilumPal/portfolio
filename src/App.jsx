@@ -8,7 +8,8 @@ function App() {
     {
       title: "Saffron App",
       description: "A stall reservation system built with React and Spring Boot.",
-      tags: ["React", "Spring Boot", "PostgreSQL"],
+      tags: ["React", "php", "MySql"],
+      image: "fastfood-preview.png"
     },
     {
       title: "PharmaCare",

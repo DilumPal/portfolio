@@ -1,11 +1,19 @@
-const ProjectCard = ({ title, description, tags, link }) => {
+const ProjectCard = ({ title, description, tags, link, image }) => {
   return (
     <div className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all group">
       <div className="h-48 bg-gray-700 overflow-hidden">
-        {/* Placeholder for project image */}
-        <div className="w-full h-full bg-gradient-to-br from-blue-900 to-gray-800 flex items-center justify-center text-gray-500">
-          Project Preview
-        </div>
+        {/* Render the image if provided, otherwise show the placeholder */}
+        {image ? (
+          <img 
+            src={image} 
+            alt={title} 
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-blue-900 to-gray-800 flex items-center justify-center text-gray-500">
+            Project Preview
+          </div>
+        )}
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
