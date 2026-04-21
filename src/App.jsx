@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
+import { Route } from 'react-router-dom';
 
 function App() {
   const projects = [
