@@ -22,7 +22,19 @@ function App() {
     <div className="bg-black min-h-screen">
       <Navbar />
       <Hero />
-      
+
+      {/* Inside App.jsx, before the Projects section */}
+      <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-white scroll-mt-20">
+        <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
+        <div className="bg-gray-800 p-8 rounded-2xl border border-gray-700">
+          <p className="text-gray-300 leading-relaxed text-lg">
+            I am a Software Engineering student with a passion for building clean,
+            user-friendly applications. I specialize in React, Node.js,
+            and PostgreSQL, and I love turning complex problems into simple digital solutions.
+          </p>
+        </div>
+      </section>
+
       <section id='projects-section' className="py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-12 text-center">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
