@@ -6,8 +6,8 @@ import { Route } from 'react-router-dom';
 function App() {
   const projects = [
     {
-      title: "Saffron App",
-      description: "A stall reservation system built with React and Spring Boot.",
+      title: "fastfood Web",
+      description: "A food ordering system built with React and php.",
       tags: ["React", "php", "MySql"],
       image: "fastfood-preview.png"
     },
@@ -23,7 +23,7 @@ function App() {
       <Navbar />
       <Hero />
       
-      <section className="py-20 px-6 max-w-6xl mx-auto">
+      <section id='projects-section' className="py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-12 text-center">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((proj, index) => (
