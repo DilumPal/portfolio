@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 top-0 bg-white/10 backdrop-blur-md border-b border-white/10 px-6 py-4 flex justify-between items-center text-white">
-      <h1 className="text-xl font-bold tracking-tighter">DP.DEV</h1>
+      <h1 className="text-xl font-bold tracking-tighter">DR.DEV</h1>
       <ul className="hidden md:flex gap-8 font-medium">
         <li className="hover:text-blue-400 cursor-pointer transition"><a href="#about">About</a></li>
         <li className="hover:text-blue-400 cursor-pointer transition"><a href="#projects-section">Projects</a></li>
