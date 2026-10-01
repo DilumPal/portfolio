@@ -5,3 +5,22 @@
     scroll-behavior: smooth;
   }
 }
+
+@layer utilities {
+  .bg-pan-gradient {
+    background-size: 200% 200%;
+    animation: gradient-pan 8s ease infinite;
+  }
+}
+
+@keyframes gradient-pan {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
