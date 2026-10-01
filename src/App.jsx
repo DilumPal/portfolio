@@ -9,7 +9,7 @@ function App() {
       title: "fastfood Web",
       description: "A food ordering system built with React and php.",
       tags: ["React", "php", "MySql"],
-      image: "fastfood-preview.png"
+      image: "https://ufmapsbspsfmkdekzuwo.supabase.co/storage/v1/object/public/portfolio-images/fastfood-preview.png"
     },
     {
       title: "PharmaCare",
