@@ -7,7 +7,6 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8 font-medium">
         <li className="hover:text-blue-400 cursor-pointer transition"><a href="#about">About</a></li>
         <li className="hover:text-blue-400 cursor-pointer transition"><a href="#projects-section">Projects</a></li>
-        <li className="hover:text-blue-400 cursor-pointer transition">Contact</li>
       </ul>
       <div className="flex gap-4 text-2xl">
         <a
