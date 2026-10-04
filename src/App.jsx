@@ -73,8 +73,7 @@ function App() {
       ],
       tags: ["Next.js", "C#", ".NET Core", "PostgreSQL", "SignalR"],
       links: [
-        { label: "Frontend Repo", url: "https://github.com/DilumPal/StockSphere" },
-        { label: "Backend Repo", url: "https://github.com/DilumPal/StockSphere-API" }
+        { label: "Git Repo", url: "https://github.com/DilumPal/StockSphere-web" },
       ]
     },
     {
