@@ -44,7 +44,7 @@ function App() {
         "A comprehensive, AI-powered platform bridging university students, academic researchers, and industry, with a robust Spring Boot (Java) backend and a responsive Next.js (React) & Tailwind CSS frontend."
       ],
       tags: ["Next.js", "React", "Spring Boot", "Java", "Tailwind CSS"],
-      image: "https://ufmapsbspsfmkdekzuwo.supabase.co/storage/v1/object/public/portfolio-images/Screenshot%20(242).png",
+      image: "https://ufmapsbspsfmkdekzuwo.supabase.co/storage/v1/object/public/portfolio-images/Screenshot%20(257).png",
       links: [
         { label: "Git Repo", url: "https://github.com/DilumPal/UniConnect" }
       ]
